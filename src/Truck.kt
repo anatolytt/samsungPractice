@@ -10,4 +10,5 @@ class Truck (
     override fun poBibikat() {
         println("ОЧЕНЬ громкий звук")
     }
+
 }

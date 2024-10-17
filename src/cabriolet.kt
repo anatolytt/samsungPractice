@@ -7,10 +7,12 @@ class Cabriolet(color:Color,
 ): Car(color, gosNomer, model){
     fun changeRoofState () {
         roofState = !roofState
+        """
         if (roofState)
             println("Крыша открыта")
         else
             println("Крыша закрыта")
+           """
     }
 
     override fun poBibikat() {
